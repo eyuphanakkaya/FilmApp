@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,15 @@
 		79325FB922F0585D00B21CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325FB722F0585D00B21CCA /* LaunchScreen.storyboard */; };
 		79325FC422F0585D00B21CCA /* FilmlerUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FC322F0585D00B21CCA /* FilmlerUygulamasiTests.swift */; };
 		79325FCF22F0585D00B21CCA /* FilmlerUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FCE22F0585D00B21CCA /* FilmlerUygulamasiUITests.swift */; };
+		79325FDD22F0596400B21CCA /* KategoriHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FDC22F0596400B21CCA /* KategoriHucreTableViewCell.swift */; };
+		79325FDF22F05BD100B21CCA /* FilmHucreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FDE22F05BD100B21CCA /* FilmHucreCollectionViewCell.swift */; };
+		79325FE122F05D4500B21CCA /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FE022F05D4500B21CCA /* FilmViewController.swift */; };
+		79325FE322F05D6000B21CCA /* FilmDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FE222F05D6000B21CCA /* FilmDetayViewController.swift */; };
+		79325FE522F05E7000B21CCA /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FE422F05E7000B21CCA /* Kategoriler.swift */; };
+		79325FE722F05ECC00B21CCA /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FE622F05ECC00B21CCA /* Yonetmenler.swift */; };
+		79325FE922F05F0A00B21CCA /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FE822F05F0A00B21CCA /* Filmler.swift */; };
+		A4F1BC0A29FFEC8000B13982 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A4F1BC0929FFEC8000B13982 /* FirebaseDatabase */; };
+		A4F1BC0C29FFF5DB00B13982 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F1BC0B29FFF5DB00B13982 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,14 @@
 		79325FCA22F0585D00B21CCA /* FilmlerUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmlerUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325FCE22F0585D00B21CCA /* FilmlerUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerUygulamasiUITests.swift; sourceTree = "<group>"; };
 		79325FD022F0585D00B21CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79325FDC22F0596400B21CCA /* KategoriHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriHucreTableViewCell.swift; sourceTree = "<group>"; };
+		79325FDE22F05BD100B21CCA /* FilmHucreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmHucreCollectionViewCell.swift; sourceTree = "<group>"; };
+		79325FE022F05D4500B21CCA /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		79325FE222F05D6000B21CCA /* FilmDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetayViewController.swift; sourceTree = "<group>"; };
+		79325FE422F05E7000B21CCA /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		79325FE622F05ECC00B21CCA /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		79325FE822F05F0A00B21CCA /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		A4F1BC0B29FFF5DB00B13982 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F1BC0A29FFEC8000B13982 /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +120,15 @@
 				79325FB222F0585C00B21CCA /* Main.storyboard */,
 				79325FB522F0585D00B21CCA /* Assets.xcassets */,
 				79325FB722F0585D00B21CCA /* LaunchScreen.storyboard */,
+				A4F1BC0B29FFF5DB00B13982 /* GoogleService-Info.plist */,
 				79325FBA22F0585D00B21CCA /* Info.plist */,
+				79325FDC22F0596400B21CCA /* KategoriHucreTableViewCell.swift */,
+				79325FDE22F05BD100B21CCA /* FilmHucreCollectionViewCell.swift */,
+				79325FE022F05D4500B21CCA /* FilmViewController.swift */,
+				79325FE222F05D6000B21CCA /* FilmDetayViewController.swift */,
+				79325FE422F05E7000B21CCA /* Kategoriler.swift */,
+				79325FE622F05ECC00B21CCA /* Yonetmenler.swift */,
+				79325FE822F05F0A00B21CCA /* Filmler.swift */,
 			);
 			path = FilmlerUygulamasi;
 			sourceTree = "<group>";
@@ -141,6 +167,9 @@
 			dependencies = (
 			);
 			name = FilmlerUygulamasi;
+			packageProductDependencies = (
+				A4F1BC0929FFEC8000B13982 /* FirebaseDatabase */,
+			);
 			productName = FilmlerUygulamasi;
 			productReference = 79325FAB22F0585C00B21CCA /* FilmlerUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +242,9 @@
 				Base,
 			);
 			mainGroup = 79325FA222F0585C00B21CCA;
+			packageReferences = (
+				A4F1BC0829FFEC8000B13982 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 79325FAC22F0585C00B21CCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79325FB922F0585D00B21CCA /* LaunchScreen.storyboard in Resources */,
+				A4F1BC0C29FFF5DB00B13982 /* GoogleService-Info.plist in Resources */,
 				79325FB622F0585D00B21CCA /* Assets.xcassets in Resources */,
 				79325FB422F0585C00B21CCA /* Main.storyboard in Resources */,
 			);
@@ -258,6 +291,13 @@
 			files = (
 				79325FB122F0585C00B21CCA /* ViewController.swift in Sources */,
 				79325FAF22F0585C00B21CCA /* AppDelegate.swift in Sources */,
+				79325FE322F05D6000B21CCA /* FilmDetayViewController.swift in Sources */,
+				79325FDF22F05BD100B21CCA /* FilmHucreCollectionViewCell.swift in Sources */,
+				79325FE122F05D4500B21CCA /* FilmViewController.swift in Sources */,
+				79325FE922F05F0A00B21CCA /* Filmler.swift in Sources */,
+				79325FDD22F0596400B21CCA /* KategoriHucreTableViewCell.swift in Sources */,
+				79325FE722F05ECC00B21CCA /* Yonetmenler.swift in Sources */,
+				79325FE522F05E7000B21CCA /* Kategoriler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +473,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF9R7KNMC7;
 				INFOPLIST_FILE = FilmlerUygulamasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +492,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF9R7KNMC7;
 				INFOPLIST_FILE = FilmlerUygulamasi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4F1BC0829FFEC8000B13982 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4F1BC0929FFEC8000B13982 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4F1BC0829FFEC8000B13982 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79325FA322F0585C00B21CCA /* Project object */;
 }
